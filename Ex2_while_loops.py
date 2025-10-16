@@ -50,6 +50,11 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
+count=1
+while count <=5:
+    print("while loop is runnig")
+    count=count+1
+
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -84,7 +89,10 @@ print("-------------------------------------------\n"
 #     something = input("Type again: ")
 #
 # Write your code below:
-
+word = input("Enter your word")
+while word != "stop":
+    print("You typed something")
+    word=input("Type again:")
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -117,6 +125,12 @@ print("-------------------------------------------\n"
 #     print("Try again")
 #
 # Write your code below:
+usernumber1 = int(input("enter  a number bitween 1 and 10  : "))
+while usernumber1 >= 10 or usernumber1 <= 0:
+    usernumber1=int(input("tryagain"))
+print("Thank you")
+
+
 
 
 # -------------------------------------------
