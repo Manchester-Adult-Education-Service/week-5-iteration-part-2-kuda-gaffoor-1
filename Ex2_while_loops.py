@@ -123,9 +123,9 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 usernumber1 = int(input("enter  a number bitween 1 and 10  : "))
-while usernumber1 >10:
-    print("Try again")
-    break
+while usernumber1 >= 10 or usernumber1 <= 0:
+    usernumber1=int(input("tryagain"))
+print("Thank you")
 
 
 
