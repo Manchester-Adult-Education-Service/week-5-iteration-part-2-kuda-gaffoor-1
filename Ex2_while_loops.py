@@ -51,8 +51,9 @@ print("-------------------------------------------\n"
 # Write your code below:
 
 count=1
+
 while count <=5:
-    print("while loop is runnig")
+    print({count} ,"while count <=5 loop will run 5 times runnig ")
     count=count+1
 
 
@@ -89,10 +90,15 @@ print("-------------------------------------------\n"
 #     something = input("Type again: ")
 #
 # Write your code below:
-word = input("Enter your word")
+#========================
+
+word = input("Enter your word    : ")
 while word != "stop":
-    print("You typed something")
-    word=input("Type again:")
+    if word==word:
+        print("you matched your word so quit")
+    else:
+        print("You typed something not matched your condition Try again")
+        word=input("Type again:")
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -123,12 +129,12 @@ print("-------------------------------------------\n"
 # Example (similar idea):
 # while guess != target:
 #     print("Try again")
-#
 # Write your code below:
-usernumber1 = int(input("enter  a number bitween 1 and 10  : "))
+
+usernumber1 = int(input("Enter a number bitween 1 and 10   : "))
 while usernumber1 >= 10 or usernumber1 <= 0:
-    usernumber1=int(input("tryagain"))
-print("Thank you")
+    usernumber1=int(input(" You  entered wrong no so Tryagain   :"))
+print("you entered correctly so Thank you!!!!!!! bay")
 
 
 
@@ -170,7 +176,10 @@ print("-------------------------------------------\n"
 #     something = something - 1
 
 # Write your code below:
-
+number =0
+while number > 0:
+    Print(number)
+    number = number - 1
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -226,10 +235,16 @@ print("-------------------------------------------\n"
 #     total = total + num
 
 # Write your code below:
+x=0
+while x > 50:
+    num1 = int(input("eneter your number  :"))
+    total = total+num1
+    print("Thae Total number added : ,num1 + total = total")
+    prnit ("The last  Toatal number value is = , total ")
 
 
 # -------------------------------------------
-# SWAP COMPUTERS
+# SWAP  
 # -------------------------------------------
 # 1. Save and push this file:
 #    git add Ex2_while_loops.py
